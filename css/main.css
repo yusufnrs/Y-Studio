@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+ #sidebar {
+	position: fixed;
+	width: 250px;
+	height: 35%;
+	background: #57626F;
+	border-right: 4px solid #E0E5EA;
+}
+ #sidebar ul li:first-child {
+	text-align: center;
+	color: white;
+	font-size: 1.95em;
+	list-style: none;
+	padding: 25px 10px 10px 10px;
+}
+
+ #sidebar ul li:not(:first-child) {
+	width: 90%;
+	margin-left: 10%;
+	font-size: 1.1em;
+	list-style: none;
+	padding: 15px 10px;
+}
+
+ #sidebar ul li a {
+    color: #dfe5eb;
+    text-decoration: none;
+ }
+
+  #sidebar ul li a:hover {
+
+  	color: #dfe5eb
+  }
+  
+
+#poop {
+    left: 30%;
+}
